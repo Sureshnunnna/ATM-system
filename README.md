@@ -1,4 +1,25 @@
 # ATM-system
+Description
+The project implements an Automated Teller Machine (ATM) system using Object-Oriented Programming (OOP) in C++. It simulates real-life ATM functionalities, including account information management, cash deposit/withdrawal, cheque requests, and transaction records.
+Features
+Account Management: View balance, update user information.
+Transaction Options:
+Deposit cash.
+Withdraw cash.
+Request cheques.
+Transaction history.
+Database Management: Transaction and account data are securely stored in files for persistence.
+Implementation Details
+Classes Used:
+Account: Stores account details like name, balance, and account number.
+ATM: Handles transaction options like deposit, withdrawal, and cheque requests.
+Database: Manages file operations for storing and retrieving data.
+Concepts Used:
+Encapsulation: Data hiding using private members.
+Inheritance (optional): For advanced account types like savings or current accounts.
+File Handling: To store and retrieve user transaction data.
+
+code:-
 #include <iostream>
 #include <fstream>
 #include <string>
